@@ -4,7 +4,6 @@ export class ShoppingCartPage {
   readonly page: Page;
   readonly shoppingCartPriceTotal: Locator;
 
-
   constructor(page: Page) {
     this.page = page;
     this.shoppingCartPriceTotal = page.locator(".t-priceTable_total");

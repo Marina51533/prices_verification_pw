@@ -1,6 +1,6 @@
 import { Locator, Page } from "@playwright/test";
 
-export class SecureLineVPNPage{
+export class SecureLineVPNPage {
   readonly page: Page;
   readonly vpnHeadline: Locator;
 
@@ -12,6 +12,4 @@ export class SecureLineVPNPage{
   async openSecureLineVPNPage() {
     await this.page.goto("https://www.avast.com/en-gb/secureline-vpn#mac");
   }
-
-
 }

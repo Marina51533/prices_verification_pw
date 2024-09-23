@@ -6,8 +6,7 @@ export class MainPage {
   readonly privacyNavMenuItem: Locator;
   readonly secureLineVPNLink: Locator;
   readonly productComparisonHeader: Locator;
-  readonly acceptOKBtn: Locator
-
+  readonly acceptOKBtn: Locator;
 
   constructor(page: Page) {
     this.page = page;
